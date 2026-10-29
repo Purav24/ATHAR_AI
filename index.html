@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#061b14">
+  <meta name="description" content="ATHAR explores Emirati heritage and how AI can help preserve its stories for future generations.">
+  <title>ATHAR — Heritage, Preserved for Tomorrow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="ATHAR home">
+      <span class="brand-mark">أ</span>
+      <span>ATHAR<span class="brand-dot">.</span><small>UAE DIGITAL HERITAGE</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav id="navigation">
+      <a href="#heritage">Heritage</a>
+      <a href="#preservation">AI Preservation</a>
+      <a href="#future">The Future</a>
+      <a class="nav-ai" href="#ai">Explore with AI <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid"></div>
+
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> CULTURE · MEMORY · TECHNOLOGY</div>
+        <h1>Some things<br>should <em>never</em><br>be forgotten.</h1>
+        <p class="hero-description">
+          The UAE's past holds stories worth carrying forward.
+          ATHAR brings heritage and artificial intelligence together
+          to help keep those stories alive.
+        </p>
+        <div class="hero-actions">
+          <a href="#heritage" class="button button-gold">Explore our heritage <span>↗</span></a>
+          <a href="#ai" class="button button-outline">Meet ATHAR AI <span>✳</span></a>
+        </div>
+
+        <div class="hero-meta">
+          <span><span class="tiny-square"></span> A LIVING DIGITAL ARCHIVE</span>
+          <span>ABU DHABI · UAE</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1100&q=85" alt="Traditional architecture in the UAE">
+          <div class="image-shade"></div>
+          <div class="image-label">
+            <span class="mono">ARCHIVE / 001</span>
+            <span>Memory is our inheritance.</span>
+          </div>
+        </div>
+        <div class="floating-chip chip-top"><span>✳</span> HERITAGE × AI</div>
+        <div class="floating-chip chip-bottom"><span class="status-dot"></span> PRESERVING WHAT MATTERS</div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>01 — THE STORIES THAT SHAPED US</span>
+        <a href="#intro">SCROLL TO DISCOVER ↓</a>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="intro">
+      <div class="section-index">01 / THE MEANING</div>
+      <div class="intro-content reveal">
+        <div class="eyebrow">A NAME WITH A PURPOSE</div>
+        <h2>Every legacy<br>leaves an <em>athar.</em></h2>
+        <p>
+          In Arabic, <em>athar</em> (أثر) can mean a trace, an imprint,
+          or a mark left behind. It is what remains after a moment has
+          passed — a story, a tradition, a lesson carried between generations.
+        </p>
+        <p>
+          We believe technology should help protect these traces, not replace
+          the people who give them meaning.
+        </p>
+      </div>
+      <div class="intro-stat reveal">
+        <div class="stat-symbol">أثر</div>
+        <div class="stat-line"></div>
+        <p class="mono">THE PAST IS NOT STATIC.</p>
+        <p class="stat-note">It lives in what we remember, share and pass on.</p>
+      </div>
+    </section>
+
+    <section class="heritage section-pad" id="heritage">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">02 / THE ARCHIVE</div>
+          <h2>A heritage that<br><em>still speaks.</em></h2>
+        </div>
+        <p>Explore the traditions, knowledge and places that helped shape Emirati life.</p>
+      </div>
+
+      <div class="archive-grid">
+        <article class="archive-card archive-large reveal">
+          <div class="archive-image">
+            <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1100&q=85" alt="Desert dunes">
+            <span class="archive-number">01</span>
+          </div>
+          <div class="archive-info">
+            <span class="tag">LAND & IDENTITY</span>
+            <h3>Life in the desert</h3>
+            <p>Adaptation, hospitality, navigation and the knowledge built around life in an arid landscape.</p>
+          </div>
+        </article>
+
+        <article class="archive-card reveal">
+          <div class="archive-image">
+            <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=85" alt="Sea and ocean waves">
+            <span class="archive-number">02</span>
+          </div>
+          <div class="archive-info">
+            <span class="tag">THE COAST</span>
+            <h3>Pearls & the sea</h3>
+            <p>The maritime knowledge, work and communities connected to the Gulf.</p>
+          </div>
+        </article>
+
+        <article class="archive-card reveal">
+          <div class="archive-image">
+            <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=85" alt="Wildlife in its natural habitat">
+            <span class="archive-number">03</span>
+          </div>
+          <div class="archive-info">
+            <span class="tag">LIVING TRADITIONS</span>
+            <h3>Falconry</h3>
+            <p>A tradition shaped by patience, skill and a deep relationship with the natural world.</p>
+          </div>
+        </article>
+
+        <article class="archive-card reveal">
+          <div class="archive-image">
+            <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&fit=crop&w=900&q=85" alt="Traditional architecture and historic buildings">
+            <span class="archive-number">04</span>
+          </div>
+          <div class="archive-info">
+            <span class="tag">PLACE & MEMORY</span>
+            <h3>Architecture & oases</h3>
+            <p>Buildings, settlements and landscapes that tell us how people lived and adapted.</p>
+          </div>
+        </article>
+      </div>
+      <p class="archive-note mono">A STARTING POINT — EVERY STORY DESERVES ITS OWN RESEARCH.</p>
+    </section>
+
+    <section class="preservation section-pad" id="preservation">
+      <div class="preservation-intro reveal">
+        <div class="eyebrow">03 / PRESERVATION, REIMAGINED</div>
+        <h2>Technology moves<br>forward. <em>Memory does too.</em></h2>
+        <p>
+          AI cannot inherit a culture for us. But it can help people record,
+          find and learn from the knowledge that might otherwise be difficult
+          to access.
+        </p>
+      </div>
+
+      <div class="preservation-grid">
+        <article class="preserve-card reveal">
+          <span class="preserve-icon">⌁</span>
+          <span class="mono">SYSTEM / 001</span>
+          <h3>Voices that endure</h3>
+          <p>With consent, oral histories can be recorded, transcribed and organised so future generations can learn from the people who lived them.</p>
+          <span class="card-footer">ORAL HISTORY <span>↗</span></span>
+        </article>
+        <article class="preserve-card reveal">
+          <span class="preserve-icon">▤</span>
+          <span class="mono">SYSTEM / 002</span>
+          <h3>Knowledge, connected</h3>
+          <p>Digital archives can help organise photographs, documents and historical records, making trusted material easier to discover.</p>
+          <span class="card-footer">DIGITAL ARCHIVES <span>↗</span></span>
+        </article>
+        <article class="preserve-card reveal">
+          <span class="preserve-icon">ع</span>
+          <span class="mono">SYSTEM / 003</span>
+          <h3>Language lives on</h3>
+          <p>Carefully reviewed transcription and translation tools can help people explore Arabic texts, expressions and regional vocabulary.</p>
+          <span class="card-footer">LANGUAGE & CULTURE <span>↗</span></span>
+        </article>
+      </div>
+
+      <div class="ethics-strip reveal">
+        <span class="ethics-symbol">✳</span>
+        <div>
+          <strong>People first. Always.</strong>
+          <p>Respect for community ownership, consent, privacy and cultural context must come before automation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="future section-pad" id="future">
+      <div class="future-decoration"></div>
+      <div class="section-index">04 / THE NEXT CHAPTER</div>
+      <div class="future-content reveal">
+        <div class="eyebrow">ROOTED IN HERITAGE. BUILT FOR TOMORROW.</div>
+        <h2>The future should<br>know <em>where it came from.</em></h2>
+        <p>
+          The UAE's future is not about choosing between tradition and
+          innovation. It is about using new tools thoughtfully while
+          respecting the knowledge, identity and communities that came before.
+        </p>
+        <a class="button button-gold" href="#ai">Start a conversation <span>↗</span></a>
+      </div>
+      <div class="future-coordinate mono">24°27' N &nbsp; 54°22' E<br>UAE / FUTURE IN PROGRESS</div>
+    </section>
+
+    <section class="ai-section section-pad" id="ai">
+      <div class="ai-heading reveal">
+        <div>
+          <div class="eyebrow"><span class="status-dot"></span> 05 / THE ATHAR INTELLIGENCE</div>
+          <h2>Ask the past.<br><em>Explore what comes next.</em></h2>
+        </div>
+        <p>
+          Meet ATHAR AI, a conversational guide designed to help you explore
+          Emirati heritage and discover ways technology can preserve it.
+        </p>
+      </div>
+
+      <div class="ai-layout">
+        <aside class="ai-sidebar reveal">
+          <div class="ai-emblem">
+            <div class="emblem-ring ring-outer"></div>
+            <div class="emblem-ring ring-inner"></div>
+            <span>أ</span>
+          </div>
+          <div class="ai-name">ATHAR <span>INTELLIGENCE</span></div>
+          <p>Your digital guide to heritage, culture and preservation.</p>
+          <div class="ai-divider"></div>
+          <div class="ai-capability"><span>01</span> Heritage questions</div>
+          <div class="ai-capability"><span>02</span> Historical context</div>
+          <div class="ai-capability"><span>03</span> AI preservation ideas</div>
+          <div class="ai-disclaimer">AI-GENERATED RESPONSES<br>VERIFY HISTORICAL CLAIMS</div>
+        </aside>
+
+        <div class="chat-shell reveal">
+          <div class="chat-topbar">
+            <div>
+              <span class="status-dot"></span>
+              <strong>ATHAR AI</strong>
+              <span class="chat-model-label">HERITAGE GUIDE</span>
+            </div>
+            <button id="clearChat" class="clear-chat" type="button">NEW CHAT ↻</button>
+          </div>
+
+          <div class="chat-messages" id="chatMessages" aria-live="polite">
+            <div class="message assistant-message">
+              <span class="message-label">ATHAR AI <span>· INITIALISED</span></span>
+              <p>Welcome to ATHAR. Every tradition carries knowledge, and every story gives us another way to understand the UAE.</p>
+              <p>Ask me about Emirati heritage, traditional life, or how AI might help preserve cultural knowledge.</p>
+            </div>
+          </div>
+
+          <div class="suggestion-area" id="suggestions">
+            <span class="mono">TRY ASKING</span>
+            <div class="suggestion-list">
+              <button class="suggestion" type="button" data-prompt="Why was pearl diving important to the UAE?">Why was pearl diving important?</button>
+              <button class="suggestion" type="button" data-prompt="How can AI help preserve Emirati oral history responsibly?">How can AI preserve oral history?</button>
+              <button class="suggestion" type="button" data-prompt="What should a trustworthy digital heritage archive include?">Design a digital heritage archive</button>
+            </div>
+          </div>
+
+          <form id="chatForm" class="chat-input-area">
+            <label class="sr-only" for="chatInput">Your question for ATHAR AI</label>
+            <textarea id="chatInput" rows="1" maxlength="2000" placeholder="Ask something meaningful..." required></textarea>
+            <button id="sendButton" type="submit" aria-label="Send message"><span>↑</span></button>
+          </form>
+          <div class="chat-footnote">ATHAR AI CAN MAKE MISTAKES. CHECK IMPORTANT FACTS AGAINST TRUSTED SOURCES.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-pad">
+      <div class="closing-line"></div>
+      <div class="eyebrow">THE STORY DOESN'T END HERE</div>
+      <h2>Preserve the past.<br><em>Pass it forward.</em></h2>
+      <a class="button button-gold" href="#home">Return to ATHAR ↑</a>
+      <div class="closing-arabic">من الماضي، نبني المستقبل</div>
+      <p class="closing-translation">From the past, we build the future.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">أ</span>
+      <span>ATHAR<span class="brand-dot">.</span><small>UAE DIGITAL HERITAGE</small></span>
+    </a>
+    <p>A concept for preserving cultural memory through thoughtful technology.</p>
+    <span class="mono">MADE WITH RESPECT FOR THE STORIES THAT REMAIN.</span>
+  </footer>
+</body>
+</html>
